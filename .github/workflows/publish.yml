@@ -19,6 +19,6 @@ jobs:
 
       - name: Build the hello-docker Docker image
         run: |
-          docker build . --tag ghcr.io/radha3885/:latest
-          docker run ghcr.io/radha3885/dicker-image-build:latest
+          docker build . --tag ghcr.io/radha3885/docker-image-build:latest
+          docker run ghcr.io/radha3885/docker-image-build:latest
           docker push ghcr.io/radha3885/docker-image-build:latest
